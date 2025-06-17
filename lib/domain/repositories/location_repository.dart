@@ -1,4 +1,4 @@
-import 'package:tu_app_geolocalizacion/domain/entities/location_entity.dart';
+import 'package:pry_google_maps/domain/entities/location_entity.dart';
 
 abstract class LocationRepository {
   Future<LocationEntity> getCurrentLocation();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-// import 'package:tu_app_geolocalizacion/presentation/views/map_screen.dart'; // Ajusta el nombre de tu paquete
+import 'package:pry_google_maps/presentation/views/map_screen.dart'; // Ajusta el nombre de tu paquete
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized(); // Necesario para plugins como geolocator

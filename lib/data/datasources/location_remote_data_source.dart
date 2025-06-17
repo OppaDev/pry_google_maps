@@ -1,6 +1,6 @@
 import 'package:geolocator/geolocator.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:tu_app_geolocalizacion/domain/entities/location_entity.dart'; // Para usar LocationEntity directamente
+import 'package:pry_google_maps/domain/entities/location_entity.dart'; // Para usar LocationEntity directamente
 
 class LocationRemoteDataSource {
   Future<bool> _requestPermission() async {

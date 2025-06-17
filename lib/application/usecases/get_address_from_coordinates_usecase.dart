@@ -1,4 +1,4 @@
-import 'package:tu_app_geolocalizacion/domain/repositories/location_repository.dart';
+import 'package:pry_google_maps/domain/repositories/location_repository.dart';
 
 class GetAddressFromCoordinatesUseCase {
   final LocationRepository repository;

@@ -1,14 +1,14 @@
 import 'dart:async';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:tu_app_geolocalizacion/application/usecases/get_address_from_coordinates_usecase.dart';
-import 'package:tu_app_geolocalizacion/application/usecases/get_current_location_usecase.dart';
-import 'package:tu_app_geolocalizacion/application/usecases/get_location_updates_usecase.dart';
-import 'package:tu_app_geolocalizacion/data/datasources/geocoding_remote_data_source.dart';
-import 'package:tu_app_geolocalizacion/data/datasources/location_remote_data_source.dart';
-import 'package:tu_app_geolocalizacion/data/repositories/location_repository_impl.dart';
-import 'package:tu_app_geolocalizacion/domain/entities/location_entity.dart';
-import 'package:tu_app_geolocalizacion/domain/repositories/location_repository.dart';
+import 'package:pry_google_maps/application/usecases/get_address_from_coordinates_usecase.dart';
+import 'package:pry_google_maps/application/usecases/get_current_location_usecase.dart';
+import 'package:pry_google_maps/application/usecases/get_location_updates_usecase.dart';
+import 'package:pry_google_maps/data/datasources/geocoding_remote_data_source.dart';
+import 'package:pry_google_maps/data/datasources/location_remote_data_source.dart';
+import 'package:pry_google_maps/data/repositories/location_repository_impl.dart';
+import 'package:pry_google_maps/domain/entities/location_entity.dart';
+import 'package:pry_google_maps/domain/repositories/location_repository.dart';
 
 // --- Dependency Injection for Data Sources and Repositories ---
 final locationRemoteDataSourceProvider = Provider<LocationRemoteDataSource>((ref) {

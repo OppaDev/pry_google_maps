@@ -1,8 +1,8 @@
 import 'package:geolocator/geolocator.dart';
-import 'package:tu_app_geolocalizacion/data/datasources/geocoding_remote_data_source.dart';
-import 'package:tu_app_geolocalizacion/data/datasources/location_remote_data_source.dart';
-import 'package:tu_app_geolocalizacion/domain/entities/location_entity.dart';
-import 'package:tu_app_geolocalizacion/domain/repositories/location_repository.dart';
+import 'package:pry_google_maps/data/datasources/geocoding_remote_data_source.dart';
+import 'package:pry_google_maps/data/datasources/location_remote_data_source.dart';
+import 'package:pry_google_maps/domain/entities/location_entity.dart';
+import 'package:pry_google_maps/domain/repositories/location_repository.dart';
 
 class LocationRepositoryImpl implements LocationRepository {
   final LocationRemoteDataSource locationRemoteDataSource;

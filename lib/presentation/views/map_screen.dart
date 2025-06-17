@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:tu_app_geolocalizacion/presentation/providers/location_provider.dart';
-import 'package:tu_app_geolocalizacion/presentation/widgets/location_info_widget.dart';
-import 'package:tu_app_geolocalizacion/presentation/widgets/map_widget.dart';
+import 'package:pry_google_maps/presentation/providers/location_provider.dart';
+import 'package:pry_google_maps/presentation/widgets/location_info_widget.dart';
+import 'package:pry_google_maps/presentation/widgets/map_widget.dart';
 
 class MapScreen extends ConsumerWidget {
   const MapScreen({super.key});
