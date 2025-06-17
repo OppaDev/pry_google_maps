@@ -1,4 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Internet es necesario para el geolocator en algunos casos y para el mapa después -->
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="pry_google_maps"
         android:name="${applicationName}"

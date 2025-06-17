@@ -34,10 +34,17 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.5.0 # O la última versión estable
+  geolocator: ^10.1.0        # O la última versión estable
+  permission_handler: ^11.0.1 # O la última versión estable
+  flutter_riverpod: ^2.4.9    # O la última versión estable (para gestión de estado)
+  geocoding: ^2.1.1          # O la última versión estable (para obtener direcciones)
+  equatable: ^2.0.5          # Para facilitar la comparación de objetos
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
