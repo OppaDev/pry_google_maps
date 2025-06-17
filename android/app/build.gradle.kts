@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pry_google_maps"
+    namespace = "com.example.geolocalizacion_app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.pry_google_maps"
+        applicationId = "com.example.geolocalizacion_app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
@@ -41,4 +41,8 @@ android {
 
 flutter {
     source = "../.."
+}
+android {
+    ndkVersion = "27.0.12077973" // o la versión que tengas instalada
+    // ...
 }
